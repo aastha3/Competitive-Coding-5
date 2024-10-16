@@ -1,5 +1,7 @@
-class Solution:
-    def isValidSudoku(self, board: List[List[str]]) -> bool:
+Time complexity : size of chess board
+Space complexity ;size of chess board
+Passed all cases on LC : yes
+def isValidSudoku(self, board: List[List[str]]) -> bool:
         N = 9 
 
         rows = [[] for _ in range(N)]
